@@ -1,12 +1,17 @@
+body {
+  /* background-color: rgba(206, 206, 207, 0.87); */
+}
+
 nav {
   display: flex;
   background-color: rgba(78, 200, 204, 0.8);
   justify-content: space-between;
-  padding: 15px 30px;
-  margin: 15px 0;
+  padding: 10px;
+  margin: 15px auto;
   border-radius: 10px;
   align-items: center;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 80%;
 }
 
 .nav-list ul {
@@ -27,7 +32,7 @@ nav {
 
 .nav-item:hover:not(:last-child) {
   color: rgb(13, 2, 46);
-
+  transform: translateY(-3px);
   cursor: pointer;
 
   outline: 1px solid rgb(144, 205, 230);
@@ -56,6 +61,7 @@ nav {
 .join-btn:hover {
   text-shadow: none;
   background-color: #007f99;
+  cursor: pointer;
 }
 
 .main {
