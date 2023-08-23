@@ -1,0 +1,126 @@
+nav {
+  display: flex;
+  background-color: rgba(78, 200, 204, 0.8);
+  justify-content: space-between;
+  padding: 15px 30px;
+  margin: 15px 0;
+  border-radius: 10px;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.nav-list ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-item {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: rgb(37, 27, 68);
+  font-size: 20px;
+  text-transform: uppercase;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover:not(:last-child) {
+  color: rgb(13, 2, 46);
+
+  cursor: pointer;
+
+  outline: 1px solid rgb(144, 205, 230);
+  padding: 5px 4px 2px;
+  border-radius: 5%;
+  background-color: #84cedf;
+  box-shadow: 1px 3px 2px 1px #74a1ad;
+}
+
+.nav-logo img {
+  height: 70px;
+  width: auto;
+}
+
+.join-btn {
+  border: none;
+  background-color: #00a8cc;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.join-btn:hover {
+  text-shadow: none;
+  background-color: #007f99;
+}
+
+.main {
+  /* background-color: #a7dae4d7; */
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  /* grid-template-rows: 300px; */
+  gap: 20px;
+  justify-content: center;
+  padding: 20px 30px;
+}
+.event-card {
+  background-color: #f8f5f588;
+  border-radius: 10px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+
+  transition: transform 0.4s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.event-card:hover {
+  transform: translateY(-3px);
+  scale: 1.1;
+  margin: 10px 10px;
+  box-shadow: 0px 2px 5px 3px rgb(171 217 212 / 18%);
+  transition: 0.4s ease-in-out;
+}
+
+.event-image {
+  border-bottom: 1px solid rgb(22, 22, 66);
+  /* margin-bottom: 20px; */
+  align-items: center;
+  text-align: center;
+}
+
+.event-image img {
+  mix-blend-mode: multiply;
+  max-width: 70%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.event-content {
+  background-color: #88d3e2be;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  padding: 4px 10px 10px;
+  overflow: hidden;
+  text-align: center;
+}
+.event-title {
+  color: #112a46;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.1;
+}
+.event-date,
+.event-club {
+  color: #183352;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.1;
+}
+a:-webkit-any-link {
+  text-decoration: none;
+}

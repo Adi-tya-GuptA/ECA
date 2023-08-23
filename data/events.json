@@ -1,0 +1,67 @@
+{
+  "Events": [
+    {
+      "image": "./img.png",
+      "eventName": "Code fest",
+      "club": "Snt",
+      "emoji": "👾",
+      "date": "2023-10-30",
+      "notes": "Have a great competion explore yourself!",
+      "id": 73930385
+    },
+    {
+      "image": "./img.png",
+      "eventName": "Poetry competion",
+      "club": "EBSb",
+      "emoji": "❤",
+      "date": "2023-10-30",
+      "notes": "Enjoy the beauty of poetry",
+      "id": 17806751
+    },
+    {
+      "image": "./img.png",
+      "eventName": "Code fest",
+      "club": "Snt",
+      "emoji": "👾",
+      "date": "2023-10-30",
+      "notes": "Have a great competion explore yourself!",
+      "id": 739303840
+    },
+    {
+      "image": "./img.png",
+      "eventName": "Poetry competion",
+      "club": "EBSb",
+      "emoji": "❤",
+      "date": "2023-10-30",
+      "notes": "Enjoy the beauty of poetry",
+      "id": 17806749
+    },
+    {
+      "image": "./img.png",
+      "eventName": "Poetry competion",
+      "club": "EBSb",
+      "emoji": "❤",
+      "date": "2023-10-30",
+      "notes": "Enjoy the beauty of poetry",
+      "id": 98443198
+    },
+    {
+      "image": "./img.png",
+      "eventName": "Code fest",
+      "club": "Snt",
+      "emoji": "👾",
+      "date": "2023-10-30",
+      "notes": "Have a great competion explore yourself!",
+      "id": 739303855
+    },
+    {
+      "image": "./img.png",
+      "eventName": "Poetry competion",
+      "club": "EBSb",
+      "emoji": "❤",
+      "date": "2023-10-30",
+      "notes": "Enjoy the beauty of poetry",
+      "id": 17806759
+    }
+  ]
+}
